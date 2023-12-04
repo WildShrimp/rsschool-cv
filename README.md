@@ -1,1 +1,1 @@
-# rsschool-cv
+https://WildShrimp.github.io/rsschool-cv/cv
