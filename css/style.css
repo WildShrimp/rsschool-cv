@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url("../assets/fonts/SpaceGrotesk.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 60vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'SpaceGrotesk';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.profile_section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px 30px 30px;
+    border-bottom: 9px solid #f37106;
+}
+
+.profile_logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile_title_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title_section {
+    position: relative;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 330;
+    letter-spacing: 3px;
+    line-height: 50px;
+    word-spacing: 9px;
+}
+
+.subtitle_section {
+    margin-top: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
